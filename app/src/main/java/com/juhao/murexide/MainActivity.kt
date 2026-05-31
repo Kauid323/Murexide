@@ -158,6 +158,7 @@ fun MainScreen(token: String, onLogout: () -> Unit) {
 }
 
 @Composable
+@OptIn(ExperimentalMaterial3Api::class)
 private fun MainTopAppBar(
     currentRoute: String?,
     onLogout: () -> Unit,
